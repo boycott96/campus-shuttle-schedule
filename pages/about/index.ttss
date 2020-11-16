@@ -1,0 +1,30 @@
+.logo {
+    height: 200rpx;
+    width: 200rpx;
+}
+
+.school-title {
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 40rpx;
+}
+
+.update-text {
+    font-size: 30rpx;
+    color: blue;
+}
+
+.header {
+    text-align: center;
+    padding: 100rpx 0;
+}
+
+.menu-content {
+    font-size: 36rpx;
+    margin-left: 40rpx;
+}
+
+.cam-row {
+    display: flex;
+    line-height: 80rpx;
+}

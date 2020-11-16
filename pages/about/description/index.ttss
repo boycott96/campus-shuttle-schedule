@@ -1,0 +1,12 @@
+.des-title {
+    font-weight: 600;
+    font-size: 40rpx;
+    text-align: center;
+}
+
+.des-content {
+    font-size: 16px;
+    display: flex;
+    line-height: 28px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,24 @@
+<view>
+	<view style="padding: 60rpx 60rpx 0 80rpx">
+		<view class="des-title">使用说明</view>
+		<view style="padding-top: 60rpx;">
+			<view class="des-content">
+				<view class="iconfont icon-dot"></view>
+				<view>本表在<text style="font-weight: bold">正常工作日运行</text>，<text style="font-weight: bold">红色字为本站发车时间</text></view>
+			</view>
+			<view class="des-content">
+				<view class="iconfont icon-dot"></view>
+				<view><text style="font-weight: bold">加注红色</text>
+					<text style="color: #e0172d" class="iconfont icon-wujiaoxingtianchong"></text>
+					为<text style="font-weight: bold">学期中节假日</text>仍保持正常运行的班次
+				</view>
+			</view>
+			<view class="des-content">
+				<view class="iconfont icon-dot"></view>
+				<view><text style="font-weight: bold">加注蓝色</text>
+					<text class="iconfont icon-sanjiaoxing" style="font-size: 14px;color: #0072e4"></text>
+					为<text style="font-weight: bold">工作日中</text>本趟次有公交车辆运行</view>
+			</view>
+		</view>
+	</view>
+</view>

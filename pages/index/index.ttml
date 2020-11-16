@@ -1,0 +1,42 @@
+<view class="main">
+	<scroll-view class="inner-main" scroll-y scroll-with-animation style="height:{{2*height}}rpx">
+		<view class="weui-panel">
+			<view class="weui-cell weui-cell_access weui-cell_link" bindtap="actionSheetTap">
+				<view class="weui-cell__bd">
+					<view class="select-content">{{selectValue}}</view>
+				</view>
+				<text class="weui-cell__ft weui-cell__ft_in-access"></text>
+			</view>
+		</view>
+
+		<view class="flex-wrp table-date show-title">
+			<view class="left-title" style="{{focus==0?'color:#e0172d':''}}">{{text1}}</view>
+			<view>
+				<image src="{{focus==1?imageUrl:imageTextUrl}}" />
+			</view>
+			<view class="right-title" style="{{focus==1?'color:#e0172d':''}}">{{text2}}</view>
+		</view>
+		<view>
+			<view tt:for="{{ forData }}" id="{{index}}" class="flex-wrp table-date" style="{{index%2==0?'background:#F5F5F5':''}}">
+				<view class="inner-data flex-wrp" style="{{focus==0?'color:#e0172d':''}}">
+					<view class="work-text">
+						<text tt:if="{{item.leftWork}}" class="iconfont icon-sanjiaoxing"></text>
+					</view>
+					<view>{{item.time1}}</view>
+					<view class="note-text">
+						<text tt:if="{{item.leftNote}}" class="iconfont icon-wujiaoxingtianchong"></text>
+					</view>
+				</view>
+				<view class="inner-data flex-wrp " style="width: 100%; color: {{ focus == 1? '#e0172d': '' }}">
+					<view class="work-text">
+						<text tt:if="{{item.rightWork}}" class="iconfont icon-sanjiaoxing"></text>
+					</view>
+					<view>{{item.time2}}</view>
+					<view class="note-text">
+						<text style="margin-left: 15rpx;" tt:if="{{item.rightNote}}" class="iconfont icon-wujiaoxingtianchong"></text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</scroll-view>
+</view>

@@ -1,0 +1,116 @@
+.inner-main {
+  width: 100%;
+}
+
+.navigator {
+  flex-direction: row;
+  height: 150rpx;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: #f0f3f6;
+  border-top-left-radius: 60rpx;
+  border-top-right-radius: 60rpx;
+}
+
+.flex-wrp {
+  display: flex;
+}
+
+.table-date {
+  flex-direction: row;
+  height: 35px;
+  margin: 0 20px;
+}
+
+.table-date view {
+  width: 100%;
+}
+
+.image-text {
+  width: 20px;
+  height: 20px;
+}
+
+.text-1 {
+  width: 33%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.text-1 view {
+  width: 80rpx;
+}
+
+.image {
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.description-button {
+  position: absolute;
+  bottom: 170rpx;
+  right: 40rpx;
+  z-index: 10;
+  border: 1px solid #0077ff;
+  background-color: rgba(0, 119, 255, 0.7);
+  border-radius: 50%;
+  height: 88rpx;
+  width: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  color: white;
+}
+
+.select-content {
+  text-align: center;
+  font-weight: 600;
+  color: #0077ff;
+  font-size: 18px;
+}
+
+.show-title {
+  border-top: unset;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.left-title {
+  text-align: right;
+  padding-right: 30rpx;
+}
+
+.right-title {
+  text-align: left;
+  padding-left: 30rpx;
+}
+
+.show-title image {
+  width: 135rpx;
+  height: 60rpx;
+}
+
+.work-text {
+  color: #0072e4;
+  text-align: right
+}
+
+.work-text text {
+  margin-right: 15rpx;
+}
+
+.inner-data {
+  text-align: center;
+}
+
+.note-text {
+  color: #e0172d;
+  text-align: left;
+}
+
+.note-text text {
+  margin-left: 15rpx;
+}
